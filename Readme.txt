@@ -18,7 +18,7 @@ http://php.net/smtp
 SMTP=smtp.gmail.com
 http://php.net/smtp-port
 smtp_port=587
-sendmail_from = boondocks255@gmail.com
+sendmail_from = "Your email"
 sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"
 
 Now, go the (C:\xampp\sendmail) and open the sendmail configuration setting file then find sendmai. Find thethe following lines and pass the following values. If there is a semicolon at the start of each line given below, simply remove it:
@@ -27,6 +27,6 @@ smtp_server=smtp.gmail.com
 smtp_port=587
 error_logfile=error.log
 debug_logfile=debug.log
-auth_username= boondocks255@gmail.com
-auth_password= qwerty789@
-force_sender= boondocks255@gmail.com (it's optional)
+auth_username=  "Your email"
+auth_password= "Your password"
+force_sender=  "Your email" (it's optional)
